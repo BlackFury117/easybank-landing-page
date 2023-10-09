@@ -1,2 +1,24 @@
 @use 'variables' as *;
 
+@mixin flex-setup{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin btn-shape{
+    &:hover{
+        opacity: 0.4;
+        background: #FFF;
+    }
+    
+    .btn{
+        color: $white;
+        font-size: .9rem;
+        font-weight: 700;
+        padding: .8rem 2rem;
+        border-radius: 1.375rem;
+        background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+        line-height: 1.75rem;
+    }
+}
