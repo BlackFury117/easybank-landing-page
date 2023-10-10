@@ -199,7 +199,7 @@ main{
     /// THIRD SECTION
     .third-section{
         background: #FAFAFA;
-        padding: 5rem 5rem;
+        padding: 4rem 5rem;
 
         h2{
             @include setup-h2;
@@ -274,6 +274,11 @@ main{
                         line-height: 1.25rem;
                         letter-spacing: -0.01788rem;
                         margin-bottom: .5rem;
+
+                        &:hover{
+                            cursor: pointer;
+                            color: #30C88F;
+                        }
                     }
                     
                     .card-text{
