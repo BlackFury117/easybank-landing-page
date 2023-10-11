@@ -464,10 +464,7 @@ main{
             padding: 6rem 1.5rem 5rem 1.5rem;
 
             h2{
-                text-align: center;
-                font-size: 2rem;
-                line-height: normal;
-                letter-spacing: -0.03569rem;
+                @include setup-h2-mob;
                 margin-bottom: 1rem;
             }
 
@@ -485,6 +482,19 @@ main{
                         width: 100%;
                     }
                 }
+            }
+        }
+
+        .third-section{
+            padding: 4rem 1.5rem;
+
+            h2{
+                @include setup-h2-mob;
+                margin-bottom: 2rem;
+            }
+
+            .card-container{
+                
             }
         }
     }

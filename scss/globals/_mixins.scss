@@ -31,6 +31,13 @@
     letter-spacing: -0.04463rem;
 }
 
+@mixin setup-h2-mob{
+    text-align: center;
+    font-size: 2rem;
+    line-height: normal;
+    letter-spacing: -0.03569rem;
+}
+
 @mixin mobile-view{
     @media only screen and (max-width: 600px){
       @content;
