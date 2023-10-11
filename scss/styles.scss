@@ -461,6 +461,20 @@ main{
 
         .second-section{
             margin-top: 0;
+            padding: 6rem 1.5rem 7rem 1.5rem;
+
+            h2{
+                text-align: center;
+                font-size: 2rem;
+                line-height: normal;
+                letter-spacing: -0.03569rem;
+                margin-bottom: 1rem;
+            }
+
+            .paragraph{
+                text-align: center;
+                width: 100%;
+            }
         }
     }
 }
