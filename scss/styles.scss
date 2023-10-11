@@ -598,3 +598,45 @@ footer{
         }
     }
 }
+
+@include mobile-view{
+    footer{
+        flex-direction: column;
+        text-align: center;
+        padding: 3rem 1.5rem;
+
+        .footer-section{
+            .footer{
+                img{
+                    margin: 0 auto 2rem auto;
+                }
+
+                .icons{
+                    margin: 0 auto 2rem auto;
+
+                    .fa-brands{
+                        font-size: 1.5rem;
+                    }
+
+                    .cust-ico{
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+
+        .footer-links-2{
+            margin-bottom: 2rem;
+        }
+
+        .footer-btn{
+            a{
+                margin: 0 auto 1.5rem auto;
+            }
+
+            p{
+                margin: 0 auto;
+            }
+        }
+    }
+}
