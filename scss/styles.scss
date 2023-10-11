@@ -407,6 +407,40 @@ main{
     }
 }
 
+@include mobile-view{
+    main{
+        .hero-section{
+            flex-direction: column-reverse;
+            padding: 0 0;
+
+            .text{
+                padding: 0 1.5rem;
+            }
+
+            .image{
+                background: url(/images/bg-intro-mobile.svg);
+                background-repeat: no-repeat;
+                background-size: 100%;
+                background-position: bottom;
+                padding: 0 1.5rem;
+
+                img{
+                    width: 100%;
+                    height: 100%;
+                    right: 0;
+                    top: -120px;
+                    margin-bottom: -120px;
+                    z-index: 5;
+                }
+            }
+        }
+
+        .second-section{
+            margin-top: 0;
+        }
+    }
+}
+
             /// FOOTER SECTION ///
 
 footer{
