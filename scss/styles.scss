@@ -461,7 +461,7 @@ main{
 
         .second-section{
             margin-top: 0;
-            padding: 6rem 1.5rem 7rem 1.5rem;
+            padding: 6rem 1.5rem 5rem 1.5rem;
 
             h2{
                 text-align: center;
@@ -474,6 +474,17 @@ main{
             .paragraph{
                 text-align: center;
                 width: 100%;
+            }
+
+            .container{
+                .row{
+                    text-align: center;
+                    flex-basis: 100%;
+
+                    p{
+                        width: 100%;
+                    }
+                }
             }
         }
     }
