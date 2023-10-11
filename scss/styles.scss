@@ -494,7 +494,20 @@ main{
             }
 
             .card-container{
-                
+                .card{
+                    width: 100%;
+
+                    .card-image{
+                        width: 100%;
+                    }
+
+                    .card-content{
+                        padding: 1rem 1.5rem;
+                        .card-text{
+                            width: 100%;
+                        }
+                    }
+                }
             }
         }
     }
