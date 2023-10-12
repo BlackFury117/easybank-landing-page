@@ -2,7 +2,7 @@
 
 ![Design preview for the Easybank landing page coding challenge](./design/screenshot-of-my-work.jpg) <br>
 
-This is a solution to the [Easybank landing page challenge on Frontend Mentor](). Frontend Mentor challenges help us to improve our coding skills by building realistic projects. <br><br>
+This is a solution to the [Easybank landing page challenge on Frontend Mentor](https://www.frontendmentor.io/solutions/easybank-landing-page-solution-nFXi3QY-DE). Frontend Mentor challenges help us to improve our coding skills by building realistic projects. <br><br>
 
 ## Built with
 
