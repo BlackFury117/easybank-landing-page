@@ -132,7 +132,7 @@ header{
                 background-color: white;
                 border-radius: .5rem;
                 padding: 2rem;
-                box-shadow: 0 0 50px rgba(0, 0, 0, 0.4);
+                box-shadow: 0 200px 200px 25px rgba(0, 0, 0, 0.6);
                 max-height: 70vh;
                 width: 80%;
                 overflow-y: auto;
@@ -329,7 +329,7 @@ main{
                 width: 15.9375rem;
                 flex-shrink: 0;
                 box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-                transition: 0.3s;
+                // transition: 0.3s;
                 border-radius: 0.3125rem;
             
                 &:hover{

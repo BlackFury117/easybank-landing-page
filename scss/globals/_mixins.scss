@@ -8,8 +8,8 @@
 
 @mixin btn-shape{
     &:hover{
-        opacity: 0.4;
-        background: #FFF;
+        opacity: 0.4 !important;
+        background: #FFF !important;
     }
     
     .btn{
